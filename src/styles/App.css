@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+body{
+    font-family: 'Literata', serif;
+    background-color: black;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+*{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.main{
+    position: relative;
+}
+.container{
+    padding: 0;
+}
+.about{
+    min-height: 100vh;
+}
+.about-image{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    min-height: 800px;
+}
+.about-image-content{
+    position: absolute;
+    left: -120%;
+    opacity: 0.7;
+}
+.about-text{
+    margin-left: auto;
+}
+.about .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-main{
+    margin-top: 180px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    padding: 0;
+}
+.container-text{
+    padding: 30px;
+}
+.about-text p{
+    letter-spacing: 0.05em;
+    font-weight: 200;
+}
+.bg.main{
+    background: url(./../img/mainbg.jpg);
+    background-size: cover;
+    filter: grayscale(.3);
+}
+.coffee{
+    min-height: 100vh;
+}
+.coffee-main-text{
+    margin-top: 180px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    padding: 0;
+
+}
+.coffee-primary-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.coffee .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coffee-image{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+.coffee-image img{
+    position: absolute;
+    right: -50%;
+    top: -45%;
+}

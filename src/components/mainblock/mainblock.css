@@ -1,0 +1,15 @@
+.bg.main{
+    height: 100vh;
+}
+.container.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-text{
+    padding: 0;
+}
+.cupofcoffe{
+    display: none;
+}
